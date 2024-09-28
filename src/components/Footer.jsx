@@ -1,14 +1,18 @@
+import { FaTwitter, FaTelegramPlane } from 'react-icons/fa';
+
 const Footer = () => (
-  <div className='pt-6 text-base font-bold leading-6 sm:text-lg sm:leading-7'>
-    <p>
-      The React and Tailwind CSS starter kit is maintained by &nbsp;
-      <a
-        href='https://digitalinspiration.com/'
-        className='text-cyan-600 no-underline hover:text-cyan-700'
-      >
-        Amit Agarwal &rarr;
+  <div className='pt-6 text-base font-bold leading-6 sm:text-lg sm:leading-7 text-center py-8'>
+    <div className='flex justify-center space-x-6'>
+      {/* Twitter Icon with Link */}
+      <a href='https://x.com/leyeetcoin' target='_blank' rel='noopener noreferrer'>
+        <FaTwitter className='text-4xl text-blue-500 hover:text-blue-400' />
       </a>
-    </p>
+      
+      {/* Telegram Icon with Link */}
+      <a href='https://t.me/leyeetcoin' target='_blank' rel='noopener noreferrer'>
+        <FaTelegramPlane className='text-4xl text-blue-400 hover:text-blue-300' />
+      </a>
+    </div>
   </div>
 );
 

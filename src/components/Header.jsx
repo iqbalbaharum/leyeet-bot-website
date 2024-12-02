@@ -22,7 +22,7 @@ const Header = () => (
                     </nav>
 
                     <div className="flex items-center gap-4">
-                        <Button text={"Start Trading"} color="#ffcc00" />
+                        <Button href="https://t.me/LeYeetbot" target={"_blank"} text={"Start Trading"} color="#ffcc00" />
                     </div>
                 </div>
             </div>

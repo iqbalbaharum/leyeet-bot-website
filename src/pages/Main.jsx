@@ -35,8 +35,8 @@ const MainPage = () => {
                         </h1>
 
                         <div className="mt-8 flex flex-wrap gap-4 text-center items-center justify-center">
-                            <Button text={"Start Trading"} color="#ffcc00" />
-                            <Button text={"Buy $LYT"} color="#ff5733" />
+                            <Button href="https://t.me/LeYeetbot" target="_blank" text={"Start Trading"} color="#ffcc00" />
+                            <Button href="https://raydium.io/swap/?inputMint=FBFh7c73Z4qKhjDD4sB5mAjji3cB9H6ZsiRTL6EveDpq&outputMint=sol" target={"_blank"} text={"Buy $LYT"} color="#ff5733" />
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ const MainPage = () => {
                     <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">Real Performance, Real Results</h2>
 
                     <p className="mt-4 text-gray-500 sm:text-xl">
-                        Results matter to the trader. Join thousands of traders who have revolutionized their Solana trading strategies with LeYeeTBOT.
+                        Results matter to the trader. Join thousands of traders who have revolutionized their Solana meme tokens trading strategies with LeYeeTBOT.
                     </p>
                 </div>
 
@@ -99,9 +99,9 @@ const MainPage = () => {
                     </div>
 
                     <div className="flex flex-col border-2 border-current border-gray-800 px-4 py-8 text-center">
-                        <dt className="order-last text-lg font-medium text-gray-500">Average weekly return</dt>
+                        <dt className="order-last text-lg font-medium text-gray-500">Meme tokens traded daily</dt>
 
-                        <dd className="text-4xl font-extrabold text-black md:text-5xl">30%</dd>
+                        <dd className="text-4xl font-extrabold text-black md:text-5xl">30+</dd>
                     </div>
                 </dl>
 
@@ -117,28 +117,8 @@ const MainPage = () => {
             </section>
 
             <section>
-                <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 text-xl">
-                    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
-                        <div>
-                            <div className="max-w-lg md:max-w-none">
-                                <p>Results matter to the trader. Join thousands of traders who have revolutionized their Solana trading strategies with <strong>LeYeeTBOT</strong>.</p>
-
-                                <ul className="mt-4 text-gray-700">
-                                    <li>Over 10,000 trades executed daily by LYTBOT.</li>
-                                    <li>Trusted by traders in the US, Europe, and Dubai.</li>
-                                    <li>Empowering both beginner and professional traders.</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div>
-                            <img
-                                src="https://images.unsplash.com/photo-1731690415686-e68f78e2b5bd?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                className="rounded"
-                                alt=""
-                            />
-                        </div>
-                    </div>
+                <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 md:text-7xl text-center uppercase tracking-wider text-gray-700">
+                    <span>100% your trusted partner</span> &#8226; <span>proven performance</span> &#8226; <span>simplified experience</span> &#8226; <span>Open for all traders</span>
                 </div>
             </section>
 
@@ -149,59 +129,80 @@ const MainPage = () => {
                             <div>
                                 <Parallax speed={0}>
                                     <div
-                                        className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+                                        className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:justify-center lg:px-8"
                                     >
                                         <img
-                                            src="https://images.unsplash.com/photo-1731690415686-e68f78e2b5bd?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                            src="/mockup-main.png"
                                             className="rounded"
                                             alt=""
+                                            width="60%"
                                         />
                                     </div>
                                     <div
-                                        className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+                                        className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:justify-center lg:px-8"
                                     >
                                         <img
-                                            src="https://images.unsplash.com/photo-1731690415686-e68f78e2b5bd?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                            src="/mockup-setting.png"
                                             className="rounded"
                                             alt=""
+                                            width="60%"
                                         />
                                     </div>
                                     <div
-                                        className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+                                        className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:justify-center lg:px-8"
                                     >
                                         <img
-                                            src="https://images.unsplash.com/photo-1731690415686-e68f78e2b5bd?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                            src="/mockup-start.png"
                                             className="rounded"
                                             alt=""
+                                            width="60%"
+                                        />
+                                    </div>
+                                    <div
+                                        className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:justify-center lg:px-8"
+                                    >
+                                        <img
+                                            src="/mockup-referal.png"
+                                            className="rounded"
+                                            alt=""
+                                            width="60%"
                                         />
                                     </div>
                                 </Parallax>
                             </div>
 
                             <div>
-                                <Parallax speed={10}>
+                                <Parallax speed={-10}>
                                     <div
                                         className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
                                     >
                                         <div>
-                                            <h2 className="text-4xl font-bold sm:text-3xl md:text-5xl uppercase">Send SOL to your LeYeetbot Wallet</h2>
-                                            <p>Fund your LeYeetBot wallet by sending SOL from Phantom or any centralized exchange.</p>
+                                            <h2 className="text-4xl font-bold sm:text-3xl md:text-5xl uppercase tracking-wide text-gray-900">Send SOL to your LeYeetbot Wallet</h2>
+                                            <p className="text-gray-700 text-xl mt-0.5">Fund your LeYeetBot wallet by sending SOL from Phantom or any centralized exchange.</p>
                                         </div>
                                     </div>
                                     <div
                                         className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
                                     >
                                         <div>
-                                            <h2 className="text-4xl font-bold sm:text-3xl md:text-5xl uppercase">Set Your trading preferences</h2>
-                                            <p>Customized and fine tune your bot executions</p>
+                                            <h2 className="text-4xl font-bold sm:text-3xl md:text-5xl uppercase tracking-wide text-gray-900">Personalized trading preferences</h2>
+                                            <p className="text-gray-700 text-xl mt-0.5">Customized and fine tune your bot trading executions</p>
                                         </div>
                                     </div>
                                     <div
                                         className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
                                     >
                                         <div>
-                                            <h2 className="text-4xl font-bold sm:text-3xl md:text-5xl uppercase">Start</h2>
-                                            <p>Start your journey with a single click</p>
+                                            <h2 className="text-4xl font-bold sm:text-3xl md:text-5xl uppercase tracking-wide text-gray-900">Simplify experience</h2>
+                                            <p className="text-gray-700 text-xl mt-0.5">Single click to "Start" the automated trade</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+                                    >
+                                        <div>
+                                            <h2 className="text-4xl font-bold sm:text-3xl md:text-5xl uppercase tracking-wide text-gray-900">Sharing is caring</h2>
+                                            <p className="text-gray-700 text-xl mt-0.5">Share LeyeeTBot and earn 1% of every trade they made</p>
                                         </div>
                                     </div>
                                 </Parallax>
@@ -240,7 +241,6 @@ const MainPage = () => {
                 </div>
             </section>
 
-
             <section className="bg-gray-50">
                 <div className="p-8 md:p-12 lg:px-16 lg:py-24">
                     <div className="mx-auto max-w-lg text-center">
@@ -254,7 +254,7 @@ const MainPage = () => {
                     </div>
 
                     <div className="mx-auto mt-8 max-w-xl text-center">
-                        <Button text="Start Trading" color="#ffcc00" />
+                        <Button href="https://t.me/LeYeetbot" target={"_blank"} text="Start Trading" color="#ffcc00" />
                     </div>
                 </div>
             </section>

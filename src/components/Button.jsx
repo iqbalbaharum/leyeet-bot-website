@@ -1,9 +1,9 @@
-const Button = ({ text, color }) => {
+const Button = ({ href, target, text, color }) => {
     return (
         <>
             <a
                 className="group relative inline-block focus:outline-none focus:ring"
-                href="#"
+                href={href} target={target}
             >
                 <span
                     style={{ backgroundColor: color }}

@@ -6,9 +6,12 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom'
 
 import App from './App';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+  <ParallaxProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </ParallaxProvider>
 );

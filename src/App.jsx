@@ -9,14 +9,14 @@ import BuyPage from '@pages/Buy';
 // import BuyPage from '@pages/Buy'
 
 const App = () => (
-  <div className='flex min-h-screen flex-col bg-[#0F101D] text-white'>
+  <div className='flex min-h-screen flex-col'>
     <Header />
-      <Routes>
-        <Route path="" element={<MainPage />}></Route>
-        <Route path="/buy" element={<BuyPage />}></Route>
-      </Routes>
+    <Routes>
+      <Route path="" element={<MainPage />}></Route>
+      <Route path="/buy" element={<BuyPage />}></Route>
+    </Routes>
     <Footer />
-  
+
   </div>
 );
 

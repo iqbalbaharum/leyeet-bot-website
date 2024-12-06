@@ -20,23 +20,21 @@ const MainPage = () => {
     return (
         <div>
             <section
-                className="relative bg-cover bg-center bg-no-repeat"
+                className="relative flex items-center justify-center bg-cover bg-center bg-no-repeat min-h-screen"
             >
                 <div
                     className="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
                 ></div>
 
-                <div
-                    className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
-                >
-                    <div className="max-w-xl text-center">
+                <div className="relative mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 text-center">
+                    <div className="max-w-xl">
                         <h1 className="text-3xl font-extrabold sm:text-5xl">
                             <strong className="font-extrabold text-rose-700">Dominate</strong> Solana Meme Trading with LeYeeT BOT
                         </h1>
 
-                        <div className="mt-8 flex flex-wrap gap-4 text-center items-center justify-center">
+                        <div className="mt-8 flex flex-wrap gap-4 items-center justify-center">
                             <Button href="https://t.me/LeYeetbot" target="_blank" text={"Start Trading"} color="#ffcc00" />
-                            <Button href="https://raydium.io/swap/?inputMint=FBFh7c73Z4qKhjDD4sB5mAjji3cB9H6ZsiRTL6EveDpq&outputMint=sol" target={"_blank"} text={"Buy $LYT"} color="#ff5733" />
+                            <Button href="https://raydium.io/swap/?inputMint=FBFh7c73Z4qKhjDD4sB5mAjji3cB9H6ZsiRTL6EveDpq&outputMint=sol" target="_blank" text={"Buy $LYT"} color="#ff5733" />
                         </div>
                     </div>
                 </div>
@@ -83,7 +81,7 @@ const MainPage = () => {
                     <div className="flex flex-col border-2 border-current border-gray-800 px-4 py-8 text-center">
                         <dt className="order-last text-lg font-medium text-gray-500">Total Daily Volume</dt>
 
-                        <dd className="text-4xl font-extrabold text-black md:text-5xl">$4.8m</dd>
+                        <dd className="text-4xl font-extrabold text-black md:text-5xl">$24.8m</dd>
                     </div>
 
                     <div className="flex flex-col border-2 border-current border-gray-800 px-4 py-8 text-center">
@@ -95,13 +93,13 @@ const MainPage = () => {
                     <div className="flex flex-col border-2 border-current border-gray-800 px-4 py-8 text-center">
                         <dt className="order-last text-lg font-medium text-gray-500">Average Winrate</dt>
 
-                        <dd className="text-4xl font-extrabold text-black md:text-5xl">45%</dd>
+                        <dd className="text-4xl font-extrabold text-black md:text-5xl">70%</dd>
                     </div>
 
                     <div className="flex flex-col border-2 border-current border-gray-800 px-4 py-8 text-center">
                         <dt className="order-last text-lg font-medium text-gray-500">Meme tokens traded daily</dt>
 
-                        <dd className="text-4xl font-extrabold text-black md:text-5xl">30+</dd>
+                        <dd className="text-4xl font-extrabold text-black md:text-5xl">300+</dd>
                     </div>
                 </dl>
 
@@ -233,6 +231,7 @@ const MainPage = () => {
                 <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
                     <div className="-my-8 divide-y divide-gray-100">
                         <FaqSingle open topic="What is required to use LeYeeTBOT?" description="All you need is a Solana wallet, a supported exchange account, and Telegram to get started. LeYeeTBOT handles the rest." />
+                        <FaqSingle topic="What are the fees for trading on LeYeeTBot?" description="We charge 1% on buy only. Creating a wallet and setting up your account is completely free." />
                         <FaqSingle topic="Can I track LeYeeTBOT’s performance?" description="Yes, LeYeeTBOT provides real-time performance dashboards and updates directly on Telegram." />
                         <FaqSingle topic="How does LeYeeTBOT filter tokens?" description="LeYeeTBOT uses advanced AI algorithms to analyze market trends, trading volumes, and price movements to identify the high volume and potential tokens in the Solana ecosystem." />
                         <FaqSingle topic="What makes LeYeeTBOT better than manual trading?" description="LeYeeTBOT offers speed, accuracy, and 24/7 trading, outperforming manual strategies in every way." />

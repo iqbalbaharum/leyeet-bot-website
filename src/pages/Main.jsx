@@ -46,15 +46,15 @@ const MainPage = () => {
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
                         <p>
                             Experience seamless trading with LeYeetBOT—your AI-powered trading companion designed exclusively for the Solana coin and its ecosystem.
-                            With cutting-edge technology, LeYeeTBOT helps you discover and filter the most promising tokens, ensuring faster trades and higher profits.
+                            With cutting-edge technology, LeYeeTBOT helps you discover and filter the most promising tokens, ensuring more opportunity and higher profits.
                         </p>
                         <div>
                             <div className="max-w-lg md:max-w-none">
                                 <p>
-                                    <span className="font-bold">Low Latency:</span> Execute trades instantly, ensuring you never miss an opportunity
+                                    <span className="font-bold">AI-assisted Signals:</span> Proven algorithm to signal entry with an <strong>average profit potential of over 75%+</strong>
                                 </p>
                                 <p>
-                                    <span className="font-bold">Daily Win Rate:</span> Proven performance with an <strong>average daily win rate of over 45%+</strong>
+                                    <span className="font-bold">Low Latency:</span> Execute trades instantly, ensuring you never miss an opportunity
                                 </p>
                                 <p>
                                     <span className="font-bold">24/7 Trading:</span> LeYeeTBOT operates around the clock so you don’t have to.
@@ -91,9 +91,9 @@ const MainPage = () => {
                     </div>
 
                     <div className="flex flex-col border-2 border-current border-gray-800 px-4 py-8 text-center">
-                        <dt className="order-last text-lg font-medium text-gray-500">Average Winrate</dt>
+                        <dt className="order-last text-lg font-medium text-gray-500">Average Daily Signal</dt>
 
-                        <dd className="text-4xl font-extrabold text-black md:text-5xl">70%</dd>
+                        <dd className="text-4xl font-extrabold text-black md:text-5xl">10,000</dd>
                     </div>
 
                     <div className="flex flex-col border-2 border-current border-gray-800 px-4 py-8 text-center">
@@ -233,9 +233,14 @@ const MainPage = () => {
                         <FaqSingle open topic="What is required to use LeYeeTBOT?" description="All you need is a Solana wallet, a supported exchange account, and Telegram to get started. LeYeeTBOT handles the rest." />
                         <FaqSingle topic="What are the fees for trading on LeYeeTBot?" description="We charge 1% on buy only. Creating a wallet and setting up your account is completely free." />
                         <FaqSingle topic="Can I track LeYeeTBOT’s performance?" description="Yes, LeYeeTBOT provides real-time performance dashboards and updates directly on Telegram." />
-                        <FaqSingle topic="How does LeYeeTBOT filter tokens?" description="LeYeeTBOT uses advanced AI algorithms to analyze market trends, trading volumes, and price movements to identify the high volume and potential tokens in the Solana ecosystem." />
-                        <FaqSingle topic="What makes LeYeeTBOT better than manual trading?" description="LeYeeTBOT offers speed, accuracy, and 24/7 trading, outperforming manual strategies in every way." />
+                        <FaqSingle topic="How does LeYeeTBOT filter tokens?" description="Our super-secret advanced AI scans the market like it’s on a caffeine binge. It sniffs out the hottest tokens faster than your cousin Googles “solana 1000X token”" />
+                        <FaqSingle topic="What makes LeYeeTBOT better than manual trading?" description="LeYeeTBOT allow you to get into positions as soon it appear, outperforming manual strategies in every way." />
                         <FaqSingle topic="Is LeYeeTBOT beginner-friendly?" description="Absolutely! LeYeeTBOT is designed for all traders, from beginners to professionals, with no technical expertise needed." />
+                        <FaqSingle topic="What is the token criteria?" description="Under $10M market cap (because who wants the boring big caps?). More signal, more $$$$" />
+                        <FaqSingle topic="Is there a minimum deposit amount to use LeYeetBot?" description="Nah, just enough gas and whatever cash you’re ready to YOLO into the market. Whether it’s $1 or $10,000." />
+                        <FaqSingle topic="What is so special for LeYeetBot?" description="Quality signals, duhhh.. and holding time management. Upon entry, you can set how long u want to hold the wallet 30 sec, 1 min 5 min. Or go full diamond hands." />
+                        <FaqSingle topic="Why doesn’t LeYeeTBOT use a percentage stop-loss?" description="Oh, sure, let’s just use a 5% stop-loss on a low-cap token that can move in 10% swings a single transaction. 🤦
+With that logic, you’d stop out of every trade before the bot could even say “profit.”" />
                     </div>
                 </div>
             </section>
